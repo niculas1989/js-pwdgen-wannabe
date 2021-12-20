@@ -20,4 +20,17 @@ Come ultimo step combiniamo i 3 identificativi per ottenere una password a cui a
 */
 
 
+// Prova da inserire sempre. Serve per capire se abbiamo collegato o meno JavaScript in modo corretto.
 console.log('JS OK');
+
+// 1 - recuperare il nome dell'utente
+const firstName = prompt("Qual'è il tuo nome?")
+console.log(firstName);
+
+// 2 - recuperare il cognome dell'utente
+const secondName = prompt("Qual'è il tuo cognome?")
+console.log(secondName);
+
+// 3 - recuperare il colore preferito dell'utente
+const favouriteColor = prompt("Qual'è il tuo colore preferito?")
+console.log(favouriteColor);
