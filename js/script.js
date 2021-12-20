@@ -34,3 +34,7 @@ console.log(secondName);
 // 3 - recuperare il colore preferito dell'utente
 const favouriteColor = prompt("Qual'è il tuo colore preferito?")
 console.log(favouriteColor);
+
+
+
+console.log(firstName + secondName + favouriteColor + '21')
