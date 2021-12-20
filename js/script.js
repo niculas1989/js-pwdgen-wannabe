@@ -17,11 +17,7 @@ Come ultimo step combiniamo i 3 identificativi per ottenere una password a cui a
 2 - recuperare il cognome dell'utente
 3 - recuperare il colore preferito dell'utente
 4 - far apparire sulla pagina (o sul computed) la password - formata da i 3 valori combinati + 21 finale.
-
-
-
-
-
-
-
 */
+
+
+console.log('JS OK');
