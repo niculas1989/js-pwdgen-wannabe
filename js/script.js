@@ -35,6 +35,12 @@ console.log(secondName);
 const favouriteColor = prompt("Qual'è il tuo colore preferito?")
 console.log(favouriteColor);
 
+// 4 - creare la password perfetta
+const perfectPassword = firstName + secondName + favouriteColor + '21'
 
+// 5 - recuperare l'elemento della pagina in cui "stampare" il risultato
+const resultElement = document.getElementById('result');
 
-console.log(firstName + secondName + favouriteColor + '21')
+// 6 - stampo il risultato per la "password-insicurissima" sulla pagina
+resultElement.innerHTML = `Il risultato per la tua password sicurissimissima è questo: ${perfectPassword}`;
+console.log(perfectPassword);
